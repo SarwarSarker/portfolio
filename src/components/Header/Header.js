@@ -17,7 +17,7 @@ const Header = () => {
       <Navbar fixed="top" expand="lg" className={navbar ? "awake" : null}>
         <Container>
           <Navbar.Brand href="#hero">Sarwar.</Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Toggle aria-controls="basic-navbar-nav" className='nav__icon' />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
               <Nav.Link className="active" href="#hero">
