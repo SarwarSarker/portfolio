@@ -1,0 +1,38 @@
+.work {
+  background-color: #272727;
+  color: #fff;
+
+  .title-small {
+    color: coral;
+  }
+
+  .card {
+    background-color: #333;
+    border-radius: 10px;
+
+    a {
+      text-decoration: none;
+      color: #fff;
+    }
+
+    img {
+      &:hover {
+        transition: all 0.5s ease;
+        transform: scaleY(1.1);
+      }
+    }
+
+    .card__btn {
+      background: #272722;
+      box-shadow: 5px 5px 10px #10100e, -5px -5px 10px #3e3e36;
+      padding: 7px 20px;
+      border: 0;
+      outline: 0;
+      border-radius: 20px;
+
+      &:hover {
+        background-color: coral;
+      }
+    }
+  }
+}

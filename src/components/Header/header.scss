@@ -1,0 +1,44 @@
+.navbar {
+  position: absolute;
+  width: 100%;
+  z-index: 1024;
+  background-color: transparent;
+
+  .navbar-brand {
+    font-family: "Pacifico", cursive;
+    font-size: 35px;
+    color: coral !important;
+  }
+  .nav-link {
+    font-size: 16px;
+    margin: 15px;
+    color: #fff !important;
+    font-family: "Roboto Condensed", sans-serif;
+
+    &:hover {
+      color: coral !important;
+    }
+
+    .active {
+      color: coral !important;
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+    .navbar-collapse {
+      background: #1216198c;
+      padding: 20px 20px;
+      z-index: 10;
+      height: 100vh;
+      backdrop-filter: blur(2px);
+      -webkit-backdrop-filter: blur(2px);
+      -moz-backdrop-filter: blur(2px);
+      transition: 0.3s ease;
+    }
+  }
+}
+.awake {
+  background-color: #000 !important;
+  z-index: 1024;
+  position: fixed;
+}

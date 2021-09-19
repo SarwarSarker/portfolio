@@ -1,0 +1,44 @@
+.about {
+  background: #2f2f2f;
+  color: #fff;
+
+  h2 {
+    font-size: 3rem;
+  }
+  h4 {
+    font-size: 1.25rem;
+  }
+  p {
+    letter-spacing: 1px;
+  }
+  .profile__img {
+    width: 320px;
+    height: 350px;
+    border: solid 4px #dc3545;
+    object-fit: cover;
+  }
+
+  .title {
+    color: coral;
+  }
+
+  .download_btn {
+    background-color: seagreen;
+    border: 0;
+    border-radius: 60px;
+
+    &:hover {
+      background-color: rgb(10, 90, 45);
+    }
+  }
+
+  .github_btn {
+    background-color: coral;
+    border: 0;
+    border-radius: 60px;
+
+    &:hover {
+      background-color: rgb(150, 60, 27);
+    }
+  }
+}

@@ -1,0 +1,45 @@
+.hero {
+  height: 100vh;
+  min-height: 350px;
+  background-image: linear-gradient(
+      rgba(61, 60, 60, 0.788),
+      rgba(61, 60, 60, 0.788)
+    ),
+    url("https://cdn.pixabay.com/photo/2014/05/03/00/31/home-office-336581__340.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .hero_text {
+    h1 {
+      font-size: 5rem;
+      color: #fff;
+    }
+
+    h2,
+    h4 {
+      color: #fff;
+    }
+
+    h4 span {
+      color: coral;
+    }
+  }
+
+  .social a {
+    color: coral;
+    font-size: 2rem;
+    cursor: pointer;
+    margin-left: 10px;
+    text-decoration: none;
+  }
+
+  @media screen and (max-width: 550px) {
+    .hero_text h1 {
+      font-size: 3rem;
+    }
+  }
+}

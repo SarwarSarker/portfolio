@@ -1,0 +1,17 @@
+.services {
+  .bottom-gd {
+    background-color: rgb(48, 48, 48);
+    color: #fff;
+
+    &:hover {
+      background-color: dimgrey;
+    }
+
+    span i {
+      background-color: indianred;
+      color: #fff;
+      padding: 20px;
+      border-radius: 50%;
+    }
+  }
+}

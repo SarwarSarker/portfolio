@@ -1,0 +1,76 @@
+.skills {
+  background: #2f2f2f;
+  color: #fff;
+
+  .title-small {
+    color: coral;
+  }
+
+  .progress-info {
+    margin-bottom: 30px;
+    text-align: left;
+    position: relative;
+
+    .progress-tittle {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .progress {
+      display: flex;
+      height: 7px;
+      overflow: hidden;
+      font-size: 0.75rem;
+      border-radius: 0.25rem;
+    }
+  }
+
+  .info1 {
+    .progress-tittle {
+      width: 95%;
+    }
+    .progress-bar {
+      background-image: linear-gradient(-224deg, rgb(62, 62, 168), #0ff1db);
+    }
+  }
+  .info2 {
+    .progress-tittle {
+      width: 80%;
+    }
+    .progress-bar {
+      background-image: linear-gradient(-224deg, #fdb961, rgb(201, 181, 3));
+    }
+  }
+  .info3 {
+    .progress-tittle {
+      width: 80%;
+    }
+    .progress-bar {
+      background-image: linear-gradient(-224deg, #ca54e7, #710d8a);
+    }
+  }
+  .info4 {
+    .progress-tittle {
+      width: 95%;
+    }
+    .progress-bar {
+      background-image: linear-gradient(-224deg, #e77654, #e5529a);
+    }
+  }
+  .info5 {
+    .progress-tittle {
+      width: 70%;
+    }
+    .progress-bar {
+      background-image: linear-gradient(-224deg, teal, teal);
+    }
+  }
+  .info6 {
+    .progress-tittle {
+      width: 70%;
+    }
+    .progress-bar {
+      background-image: linear-gradient(-224deg, #8ae754, #06881c);
+    }
+  }
+}

@@ -1,0 +1,18 @@
+.contact {
+  background: #2f2f2f;
+  color: #fff;
+
+  .title {
+    color: coral;
+  }
+
+  .contact__home {
+    background: #272722;
+    box-shadow: 5px 5px 10px #10100e, -5px -5px 10px #3e3e36;
+
+    i {
+      color: coral;
+      font-size: 3rem;
+    }
+  }
+}
