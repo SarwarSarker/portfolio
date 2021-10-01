@@ -11,6 +11,7 @@ import css from '../../assets/icons/css.svg'
 import php from '../../assets/icons/php.svg'
 import wordpress from '../../assets/icons/wordpress.svg'
 import bootstrap from '../../assets/icons/bootstrap.svg'
+import tailwindcss from '../../assets/icons/tailwindcss.svg'
 import laravel from '../../assets/icons/laravel.svg'
 
 const Skills = () => {
@@ -45,6 +46,12 @@ const Skills = () => {
               <div className="contact__home p-4 rounded-3 text-center">
                 <img src={bootstrap} alt='bootstrap' />
                 <p className="">Bootstrap</p>
+              </div>
+            </Col>
+            <Col className="mb-4" xs={6} md={4} lg={3}>
+              <div className="contact__home p-4 rounded-3 text-center">
+                <img src={tailwindcss} alt='tailwindcss' />
+                <p className="">Tailwind CSS</p>
               </div>
             </Col>
             <Col className="mb-4" xs={6} md={4} lg={3}>

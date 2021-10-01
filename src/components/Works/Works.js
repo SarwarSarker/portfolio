@@ -7,7 +7,7 @@ import exprosis from "../../assets/exprosis.png";
 import freedm from "../../assets/freedm.png";
 import image from "../../assets/imge.png";
 import linkedin from "../../assets/linkedin.png";
-import portfolio from "../../assets/portfolio.png";
+import adloc from "../../assets/adloc.png";
 import shopping from "../../assets/shopping.png";
 import "./works.scss";
 
@@ -21,22 +21,7 @@ const Works = () => {
             <h3 className="fs-1 fw-bold">Some of my most recent projects</h3>
           </div>
           <Row className="py-5">
-            <Col className="mb-4" xs={12} md={6} lg={4}>
-              <Card>
-                <Card.Img variant="top" src={portfolio} />
-                <Card.Body>
-                  <Card.Title className="fs-4">Portfolio</Card.Title>
-                  <Card.Text>
-                    Portfolio website built with Reactjs , Bootstrap 5.
-                  </Card.Text>
-                  <div className="d-flex justify-content-between">
-                    <a className="card__btn" href="https://sarwarsarker.netlify.app/">
-                      Live
-                    </a>
-                  </div>
-                </Card.Body>
-              </Card>
-            </Col>
+            
             <Col className="mb-4" xs={12} md={6} lg={4}>
               <Card>
                 <Card.Img variant="top" src={exprosis} />
@@ -71,6 +56,22 @@ const Works = () => {
                       className="card__btn"
                       href="https://silly-pike-2cbcee.netlify.app/"
                     >
+                      Live
+                    </a>
+                  </div>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col className="mb-4" xs={12} md={6} lg={4}>
+              <Card>
+                <Card.Img variant="top" src={adloc} />
+                <Card.Body>
+                  <Card.Title className="fs-4">AdLoc Admin dashboard</Card.Title>
+                  <Card.Text>
+                  AdLoc Admin dashboard built with Reactjs , Tailwind CSS, ContextApi etc.
+                  </Card.Text>
+                  <div className="d-flex justify-content-between">
+                    <a className="card__btn" href="https://flamboyant-euclid-d1b96c.netlify.app/">
                       Live
                     </a>
                   </div>
