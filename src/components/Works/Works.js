@@ -24,6 +24,62 @@ const Works = () => {
             
             <Col className="mb-4" xs={12} md={6} lg={4}>
               <Card>
+                <Card.Img variant="top" src={shopping} />
+                <Card.Body>
+                  <Card.Title className="fs-4">Ecommerce App</Card.Title>
+                  <Card.Text>
+                    Ecommerce app built with Tailwind CSS, Reactjs,
+                    Redux, reduxToolkit, Firebase.
+                  </Card.Text>
+                  <div className="d-flex justify-content-between">
+                    <a
+                      className="card__btn"
+                      href="https://hardcore-mclean-ea0baf.netlify.app/"
+                    >
+                      Live
+                    </a>
+                  </div>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col className="mb-4" xs={12} md={6} lg={4}>
+              <Card>
+                <Card.Img variant="top" src={linkedin} />
+                <Card.Body>
+                  <Card.Title className="fs-4">Linkedin Clone</Card.Title>
+                  <Card.Text>
+                    Linkedin Clone built with Reactjs, redux, reduxToolkit ,
+                    firebase.
+                  </Card.Text>
+                  <div className="d-flex justify-content-between">
+                    <a
+                      className="card__btn"
+                      href="https://linkedin-clone-a8c0f.web.app/"
+                    >
+                      Live
+                    </a>
+                  </div>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col className="mb-4" xs={12} md={6} lg={4}>
+              <Card>
+                <Card.Img variant="top" src={adloc} />
+                <Card.Body>
+                  <Card.Title className="fs-4">AdLoc Admin dashboard</Card.Title>
+                  <Card.Text>
+                  AdLoc Admin dashboard built with Reactjs , Tailwind CSS, ContextApi etc.
+                  </Card.Text>
+                  <div className="d-flex justify-content-between">
+                    <a className="card__btn" href="https://flamboyant-euclid-d1b96c.netlify.app/">
+                      Live
+                    </a>
+                  </div>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col className="mb-4" xs={12} md={6} lg={4}>
+              <Card>
                 <Card.Img variant="top" src={exprosis} />
                 <Card.Body>
                   <Card.Title className="fs-4">Exprosis</Card.Title>
@@ -55,62 +111,6 @@ const Works = () => {
                     <a
                       className="card__btn"
                       href="https://silly-pike-2cbcee.netlify.app/"
-                    >
-                      Live
-                    </a>
-                  </div>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col className="mb-4" xs={12} md={6} lg={4}>
-              <Card>
-                <Card.Img variant="top" src={adloc} />
-                <Card.Body>
-                  <Card.Title className="fs-4">AdLoc Admin dashboard</Card.Title>
-                  <Card.Text>
-                  AdLoc Admin dashboard built with Reactjs , Tailwind CSS, ContextApi etc.
-                  </Card.Text>
-                  <div className="d-flex justify-content-between">
-                    <a className="card__btn" href="https://flamboyant-euclid-d1b96c.netlify.app/">
-                      Live
-                    </a>
-                  </div>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col className="mb-4" xs={12} md={6} lg={4}>
-              <Card>
-                <Card.Img variant="top" src={linkedin} />
-                <Card.Body>
-                  <Card.Title className="fs-4">Linkedin Clone</Card.Title>
-                  <Card.Text>
-                    Linkedin Clone built with Reactjs, redux, reduxToolkit ,
-                    firebase.
-                  </Card.Text>
-                  <div className="d-flex justify-content-between">
-                    <a
-                      className="card__btn"
-                      href="https://linkedin-clone-a8c0f.web.app/"
-                    >
-                      Live
-                    </a>
-                  </div>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col className="mb-4" xs={12} md={6} lg={4}>
-              <Card>
-                <Card.Img variant="top" src={shopping} />
-                <Card.Body>
-                  <Card.Title className="fs-4">Shopping Cart App</Card.Title>
-                  <Card.Text>
-                    A simple shopping cart built with Bootstrap, Reactjs,
-                    ContextApi, React-Router-Dom.
-                  </Card.Text>
-                  <div className="d-flex justify-content-between">
-                    <a
-                      className="card__btn"
-                      href="https://hardcore-mclean-ea0baf.netlify.app/"
                     >
                       Live
                     </a>
