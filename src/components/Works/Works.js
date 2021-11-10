@@ -34,7 +34,7 @@ const Works = () => {
                   <div className="d-flex justify-content-between">
                     <a
                       className="card__btn"
-                      href="https://hardcore-mclean-ea0baf.netlify.app/"
+                      href="https://ecommerce-f3eea.web.app/"
                     >
                       Live
                     </a>
