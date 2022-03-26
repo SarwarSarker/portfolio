@@ -9,7 +9,8 @@ import javascript from '../../assets/icons/javascript.svg'
 import sass from '../../assets/icons/sass.svg'
 import css from '../../assets/icons/css.svg'
 import php from '../../assets/icons/php.svg'
-import wordpress from '../../assets/icons/wordpress.svg'
+import node from '../../assets/icons/node.svg'
+import express from '../../assets/icons/express.svg'
 import bootstrap from '../../assets/icons/bootstrap.svg'
 import tailwindcss from '../../assets/icons/tailwindcss.svg'
 import laravel from '../../assets/icons/laravel.svg'
@@ -68,6 +69,18 @@ const Skills = () => {
             </Col>
             <Col className="mb-4" xs={6} md={4} lg={3}>
               <div className="contact__home p-4 rounded-3 text-center">
+                <img src={node} alt='node' />
+                <p className="">Node JS</p>
+              </div>
+            </Col>
+            <Col className="mb-4" xs={6} md={4} lg={3}>
+              <div className="contact__home p-4 rounded-3 text-center">
+                <img src={express} alt='express' />
+                <p className="">Express JS</p>
+              </div>
+            </Col>
+            <Col className="mb-4" xs={6} md={4} lg={3}>
+              <div className="contact__home p-4 rounded-3 text-center">
                 <img src={php} alt='php' />
                 <p className="">PHP</p>
               </div>
@@ -78,12 +91,7 @@ const Skills = () => {
                 <p className="">Laravel</p>
               </div>
             </Col>
-            <Col className="mb-4" xs={6} md={4} lg={3}>
-              <div className="contact__home p-4 rounded-3 text-center">
-                <img src={wordpress} alt='wordpress' />
-                <p className="">Wordpress</p>
-              </div>
-            </Col>
+            
           </Row>
         </Container>
       </section>

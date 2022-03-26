@@ -33,8 +33,9 @@ const About = () => {
                 I am a FrontEnd Developer from Dhaka. I started my journey as a
                 web developer back in 2019. Since then, I have done lots of
                 personal and corporate projects. I am a self-taught web
-                developer. I love to work with React, Firebase, MySQL, PHP,
-                Laravel and all other related technologies.
+                developer. I love to work with React, Firebase, Node JS, Express
+                JS, MySQL, MongoDB PHP, Laravel and all other related
+                technologies.
               </p>
               <div className="pt-3">
                 <Button size="lg" className="download_btn mx-2" href={cv}>
