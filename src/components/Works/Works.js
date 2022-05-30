@@ -4,11 +4,11 @@ import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import exprosis from "../../assets/exprosis.png";
-import freedm from "../../assets/freedm.png";
+import findestate from "../../assets/findstate.png";
 import image from "../../assets/imge.png";
 import linkedin from "../../assets/linkedin.png";
 import adloc from "../../assets/adloc.png";
-import shopping from "../../assets/shopping.png";
+import ecom from "../../assets/ecom.png";
 import "./works.scss";
 
 const Works = () => {
@@ -22,14 +22,31 @@ const Works = () => {
           </div>
           <Row className="py-5">
             
+          <Col className="mb-4" xs={12} md={6} lg={4}>
+              <Card>
+                <Card.Img variant="top" src={findestate} />
+                <Card.Body>
+                  <Card.Title className="fs-4">FindEstate - Real Estate</Card.Title>
+                  <Card.Text>
+                    Ecommerce app built with Html, CSS, Tailwind CSS, Reactjs,
+                    Redux, Redux-Toolkit, React Fomilk, Express JS, MongoDB.
+                  </Card.Text>
+                  <div className="d-flex justify-content-between">
+                    <a className="card__btn" href="https://findestate.netlify.app/">
+                      Live
+                    </a>
+                  </div>
+                </Card.Body>
+              </Card>
+            </Col>
             <Col className="mb-4" xs={12} md={6} lg={4}>
               <Card>
-                <Card.Img variant="top" src={shopping} />
+                <Card.Img variant="top" src={ecom} />
                 <Card.Body>
                   <Card.Title className="fs-4">Ecommerce App</Card.Title>
                   <Card.Text>
-                    Ecommerce app built with Tailwind CSS, Reactjs,
-                    Redux, reduxToolkit, Firebase.
+                    Ecommerce app built with Html, CSS, Tailwind CSS, Reactjs,
+                    Redux, Redux-Toolkit,, React Fomilk, Firebase.
                   </Card.Text>
                   <div className="d-flex justify-content-between">
                     <a
@@ -48,8 +65,8 @@ const Works = () => {
                 <Card.Body>
                   <Card.Title className="fs-4">Linkedin Clone</Card.Title>
                   <Card.Text>
-                    Linkedin Clone built with Reactjs, redux, reduxToolkit ,
-                    firebase.
+                    Linkedin Clone built with Html, CSS, Reactjs, Redux, Redux-Toolkit ,
+                    Firebase.
                   </Card.Text>
                   <div className="d-flex justify-content-between">
                     <a
@@ -112,22 +129,6 @@ const Works = () => {
                       className="card__btn"
                       href="https://silly-pike-2cbcee.netlify.app/"
                     >
-                      Live
-                    </a>
-                  </div>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col className="mb-4" xs={12} md={6} lg={4}>
-              <Card>
-                <Card.Img variant="top" src={freedm} />
-                <Card.Body>
-                  <Card.Title className="fs-4">Free DM Tools</Card.Title>
-                  <Card.Text>
-                    Free DM Tools website built with wordpress and php
-                  </Card.Text>
-                  <div className="d-flex justify-content-between">
-                    <a className="card__btn" href="https://freedmtools.com/">
                       Live
                     </a>
                   </div>
