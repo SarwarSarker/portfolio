@@ -5,7 +5,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import exprosis from "../../assets/exprosis.png";
 import findestate from "../../assets/findstate.png";
-import image from "../../assets/imge.png";
+import mediliver from "../../assets/mediliver.png";
 import linkedin from "../../assets/linkedin.png";
 import adloc from "../../assets/adloc.png";
 import ecom from "../../assets/ecom.png";
@@ -21,18 +21,45 @@ const Works = () => {
             <h3 className="fs-1 fw-bold">Some of my most recent projects</h3>
           </div>
           <Row className="py-5">
-            
-          <Col className="mb-4" xs={12} md={6} lg={4}>
+            <Col className="mb-4" xs={12} md={6} lg={4}>
+              <Card>
+                <Card.Img variant="top" src={mediliver} />
+                <Card.Body>
+                  <Card.Title className="fs-4">
+                    Mediliver Pharmacy App
+                  </Card.Title>
+                  <Card.Text>
+                    Mediliver Pharmacy app built with Html, CSS, Botstrap,
+                    Reactjs, Redux, Redux-Toolkit, React Fomilk, Express JS,
+                    MongoDB
+                  </Card.Text>
+                  <div className="d-flex justify-content-between">
+                    <a
+                      className="card__btn"
+                      href="https://mediliver.netlify.app/"
+                    >
+                      Live
+                    </a>
+                  </div>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col className="mb-4" xs={12} md={6} lg={4}>
               <Card>
                 <Card.Img variant="top" src={findestate} />
                 <Card.Body>
-                  <Card.Title className="fs-4">FindEstate - Real Estate</Card.Title>
+                  <Card.Title className="fs-4">
+                    FindEstate - Real Estate
+                  </Card.Title>
                   <Card.Text>
                     Ecommerce app built with Html, CSS, Tailwind CSS, Reactjs,
                     Redux, Redux-Toolkit, React Fomilk, Express JS, MongoDB.
                   </Card.Text>
                   <div className="d-flex justify-content-between">
-                    <a className="card__btn" href="https://findestate.netlify.app/">
+                    <a
+                      className="card__btn"
+                      href="https://findestate.netlify.app/"
+                    >
                       Live
                     </a>
                   </div>
@@ -65,8 +92,8 @@ const Works = () => {
                 <Card.Body>
                   <Card.Title className="fs-4">Linkedin Clone</Card.Title>
                   <Card.Text>
-                    Linkedin Clone built with Html, CSS, Reactjs, Redux, Redux-Toolkit ,
-                    Firebase.
+                    Linkedin Clone built with Html, CSS, Reactjs, Redux,
+                    Redux-Toolkit , Firebase.
                   </Card.Text>
                   <div className="d-flex justify-content-between">
                     <a
@@ -83,12 +110,18 @@ const Works = () => {
               <Card>
                 <Card.Img variant="top" src={adloc} />
                 <Card.Body>
-                  <Card.Title className="fs-4">AdLoc Admin dashboard</Card.Title>
+                  <Card.Title className="fs-4">
+                    AdLoc Admin dashboard
+                  </Card.Title>
                   <Card.Text>
-                  AdLoc Admin dashboard built with Reactjs , Tailwind CSS, ContextApi etc.
+                    AdLoc Admin dashboard built with Reactjs , Tailwind CSS,
+                    ContextApi etc.
                   </Card.Text>
                   <div className="d-flex justify-content-between">
-                    <a className="card__btn" href="https://flamboyant-euclid-d1b96c.netlify.app/">
+                    <a
+                      className="card__btn"
+                      href="https://flamboyant-euclid-d1b96c.netlify.app/"
+                    >
                       Live
                     </a>
                   </div>
@@ -108,26 +141,6 @@ const Works = () => {
                     <a
                       className="card__btn"
                       href="https://condescending-hamilton-0a2dfb.netlify.app/"
-                    >
-                      Live
-                    </a>
-                  </div>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col className="mb-4" xs={12} md={6} lg={4}>
-              <Card>
-                <Card.Img variant="top" src={image} />
-                <Card.Body>
-                  <Card.Title className="fs-4">Image Search App</Card.Title>
-                  <Card.Text>
-                    A Image search app built with Bootstrap, reactjs and pixabay
-                    Api
-                  </Card.Text>
-                  <div className="d-flex justify-content-between">
-                    <a
-                      className="card__btn"
-                      href="https://silly-pike-2cbcee.netlify.app/"
                     >
                       Live
                     </a>
